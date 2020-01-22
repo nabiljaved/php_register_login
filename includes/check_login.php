@@ -36,7 +36,7 @@ require_once('connection.php');
                     $_SESSION['u_pwd'] = $row['Password'];
 
                     
-                    header("location: ../account.php?wellcome");
+                    header("location: ../account.php");
                     exit();
 
                 }
